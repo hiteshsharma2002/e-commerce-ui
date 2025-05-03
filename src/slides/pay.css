@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pay-cont{
+    background-color: #2c2d34;
+    color: white;
+    margin-top: 40px;
+}
+.pay-cont .price{
+    padding: 20px;
+
+}
+.pay-cont .price h4{
+    font-weight: 600;
+    text-decoration: underline;
+}
+.price-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .price-line.total {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 12px;
+    font-size: 1.1rem;
+  }
+  .pay{
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .pay h3{
+    text-decoration: underline;
+  }
+  .pay button{
+    width: 150px;
+    height: 40px;
+  }
+  .pay button:hover{
+    background-color: red !important;
+  }
+  #next{
+    background-color:#2c2d34;
+  }

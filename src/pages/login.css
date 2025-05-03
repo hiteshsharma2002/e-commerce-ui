@@ -1,0 +1,15 @@
+#login{
+    margin-top: -95px;
+}
+#location{
+    height: 90vh;
+    /* width: 100%; */
+    background-color:#2D2B3A ;
+    color:#2c2d34;
+    padding-top: 40px;
+    background-image: url("https://technext.github.io/seogram/assets/img/world_pattern.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
