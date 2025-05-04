@@ -16,7 +16,7 @@ export default function Cart() {
     const fetchCart = async () => {
       try {
         const response = await axios.get(
-          "https://e-commerce-yw7l.onrender.com/user/cart-details",
+          `${process.env.REACT_APP_API_BASE_URL}/user/cart-details`,
           {
             withCredentials: true,
           }
