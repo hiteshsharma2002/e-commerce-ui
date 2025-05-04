@@ -591,7 +591,7 @@ body {
 }
 .main-cont4 .bg-img{
     background-color: #2c2d34;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/public/images/i3.avif');
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/public/images/i3.avif'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
