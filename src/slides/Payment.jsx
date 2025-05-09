@@ -40,8 +40,8 @@ export default function Payment() {
       `${process.env.REACT_APP_API_BASE_URL}/user/create-order`,
       {
         total,
-        withCredentials: true,
-      }
+      },
+      { withCredentials: true }
     );
 
     const order = response.data;
