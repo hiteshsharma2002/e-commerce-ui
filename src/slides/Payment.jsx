@@ -22,7 +22,7 @@ export default function Payment() {
     const fetchapi = async () => {
       try {
         const res = await axios.get(
-          "https://e-commerce-yw7l.onrender.com/user/fetch-address",
+          `${process.env.REACT_APP_API_BASE_URL}/user/fetch-address`,
           {
             withCredentials: true,
           }
@@ -37,7 +37,7 @@ export default function Payment() {
 
   const handlepay = async () => {
     const response = await axios.post(
-      "https://e-commerce-yw7l.onrender.com/user/create-order",
+      `${process.env.REACT_APP_API_BASE_URL}/user/create-order`,
       {
         total,
         withCredentials: true,
